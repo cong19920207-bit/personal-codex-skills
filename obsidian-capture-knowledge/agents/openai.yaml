@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian 知识沉淀"
+  short_description: "将当前 Codex 对话分类整理，并按已授权范围保存到 Obsidian"
+  default_prompt: "Use $obsidian-capture-knowledge to classify and save this conversation to my Obsidian vault."

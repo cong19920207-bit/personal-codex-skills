@@ -1,0 +1,7 @@
+interface:
+  display_name: "Contract From Code"
+  short_description: "从当前代码仓库的实际证据建立、查询、核验并同步代码实施契约文档"
+  default_prompt: "Use $contract-from-code to inspect this repository and propose a code-contract update."
+
+policy:
+  allow_implicit_invocation: false

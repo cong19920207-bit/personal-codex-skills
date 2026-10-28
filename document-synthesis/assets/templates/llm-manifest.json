@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "scan_roots": [
+    "docs/INDEX.md",
+    "docs/PROJECT_OVERVIEW.md",
+    "docs/contract.md",
+    "docs/contract/current",
+    "docs/tech-debt.md",
+    "docs/tech-debt/active"
+  ],
+  "exclude_roots": [
+    "docs/contract/drafts",
+    "docs/contract/history",
+    "docs/tech-debt/archive",
+    "docs/archive"
+  ],
+  "relation_types": [
+    "depends_on",
+    "extends",
+    "related_to",
+    "supersedes",
+    "blocks",
+    "resolved_by"
+  ],
+  "documents": [
+    {
+      "id": "docs-index",
+      "path": "docs/INDEX.md",
+      "status": "current",
+      "authority": "canonical",
+      "scopes": ["routing"],
+      "keywords": ["索引", "任务路由"],
+      "code_paths": [],
+      "route_prefixes": [],
+      "depends_on": [],
+      "related_documents": [],
+      "related_td": [],
+      "max_lines": 200
+    }
+  ]
+}

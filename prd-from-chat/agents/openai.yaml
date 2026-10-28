@@ -1,0 +1,7 @@
+interface:
+  display_name: "PRD From Chat"
+  short_description: "从对话和零散材料生成、更新并审查可追踪的结构化产品需求文档"
+  default_prompt: "Use $prd-from-chat to generate or update a traceable PRD from this conversation and review it before delivery."
+policy:
+  allow_implicit_invocation: false
+

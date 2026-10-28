@@ -1,0 +1,4 @@
+interface:
+  display_name: "既定工作执行"
+  short_description: "按已确认的开发或修复文档实施代码、验证结果并控制异常外溢"
+  default_prompt: "使用 $execute-approved-work 按已确认的计划执行当前工作并完成验证。"

@@ -1,0 +1,7 @@
+interface:
+  display_name: "文档归纳"
+  short_description: "参考成熟 docs 结构整理并补齐跨项目开发文档与规范"
+  default_prompt: "使用 $document-synthesis 盘点当前项目 docs，并给出保留原文的整理与补齐方案。"
+
+policy:
+  allow_implicit_invocation: false
